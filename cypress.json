@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://develop.eezy.work",
+  "env": {
+    "paths": {
+      "editor": "/edit/new"
+    },
+    "environmentName": "staging",
+    "stagingBranch": "qa_challenge"
+  },
+  "$schema": "https://on.cypress.io/cypress.schema.json"
+}
