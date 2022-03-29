@@ -1,4 +1,4 @@
-# Eezy QA Tech Challenge
+# Eezy QA Tech Challenge-Adams
 
 ## :computer: Prerequisites
 
