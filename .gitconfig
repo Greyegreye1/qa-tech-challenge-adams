@@ -1,0 +1,10 @@
+[core]
+	editor = \"C:\\Users\\gflan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Greye Flanery-Adams
+	email = 34688546+Greyegreye1@users.noreply.github.com

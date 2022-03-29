@@ -1,28 +1,5 @@
 {
-  "name": "qa-tech-challenge",
-  "version": "1.0.0",
-  "description": "Tech challenge for QA Engineers at Eezy",
-  "main": "index.js",
-  "scripts": {
-    "cy": "cypress",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eezyinc/qa-tech-challenge.git"
-  },
-  "author": "Philip Downer <pdowner@eezy.com>",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/eezyinc/qa-tech-challenge/issues"
-  },
-  "homepage": "https://github.com/eezyinc/qa-tech-challenge#readme",
   "devDependencies": {
-    "cypress": "^9.5.2",
-    "husky": "^7.0.0",
-    "prettier": "2.6.0",
-    "pretty-quick": "^3.1.3"
+    "cypress": "^9.5.3"
   }
 }
