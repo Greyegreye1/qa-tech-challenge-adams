@@ -18,11 +18,22 @@ context(
     it("Show a modal to rename the project", () => {
       cy.get(".sc-eJwWfJ.hZFFnD").click();
 
-      cy.get("h2").should("contain.text", "Name Your Project");
+      cy.get('[data-testid="modal"]').contains("Name Your Project", { matchCase: false });
     });
 
-    it.skip("Modal should dismiss when cancel button clicked", () => {});
+    it ("Modal should dismiss when cancel button clicked", () => {
+    
+     cy.get(".sc-eJwWfJ.hZFFnD").click();
+     cy.contains('Cancel').click()
+     cy.get(".modal").should("not.exist");
 
-    it.skip("Modal should dismiss whenever it's clicked outside of", () => {});
+    });
+   
+
+    it("Modal should dismiss whenever it's clicked outside of", () => {
+      cy.get(".sc-eJwWfJ.hZFFnD").click();
+      cy.get('.sc-pVTFL').click('bottomRight');
+      cy.get(".modal").should("not.exist");
+    });
   }
 );
